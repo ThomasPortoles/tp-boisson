@@ -5,6 +5,14 @@
     padding-left: 80px;
     padding-top: 30px;
     color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(91,222,246,1);
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .conteneur {
@@ -15,11 +23,12 @@
     padding-top: 50px;
     padding-left: 60px;
     justify-content: center;
-    background-color: rgb(255, 251, 239);
-    height: 1550px;
+    background-color: rgba(11,0,60,1);
+    border: 2px solid rgba(91,222,246,1);
+    height: 1580px;
     width: 1050px;
     border-radius: 20px;
-    
+
 }
 
 .conteneur2 {
@@ -33,14 +42,14 @@
     padding-top: 300px;
 
 }
+
 #taillebanniere {
     height: 300px;
     width: 1300px;
     border-radius: 15px;
 }
 
-
-#imgid{
+#imgid {
     height: 130px;
     width: 130px;
 }
@@ -55,42 +64,49 @@
     width: 180px;
 }
 
-#imgRedBull{
+#imgRedBull {
     height: 130px;
     width: 160px;
 }
 
 body {
-    background: linear-gradient(180deg, rgba(11,0,60,1) 0%, rgba(91,222,246,1) 100%);
-    
+    background: linear-gradient(180deg, rgba(11, 0, 60, 1) 0%, rgba(91, 222, 246, 1) 100%);
+
 }
-h1{
+
+h1 {
     padding-top: 100px;
     text-align: center;
     color: white;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-#principaldiv{
+
+#principaldiv {
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.textimg{
-height: 40px;
-width: 200px;    
+
+.textimg {
+    height: 40px;
+    width: 200px;
 
 }
+
 .titre {
     color: white;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
-    gap: 300px; 
-  }
-  a{
+    gap: 300px;
+}
+
+a {
     color: white;
-  }
-  .conteneurp2 {
+}
+
+.conteneurp2 {
     display: grid;
     grid-template-columns: 350px 350px 370px;
     grid-template-rows: 300px 300px 300px;
@@ -98,8 +114,36 @@ width: 200px;
     padding-top: 50px;
     padding-left: 60px;
     justify-content: center;
-    background-color: rgb(255, 251, 239);
+    background-color: rgba(11,0,60,1);
+    border: 2px solid rgba(91,222,246,1);
     height: 650px;
     width: 1050px;
     border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    width: 100vh;
+}
+
+.logoRapidRush {
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.textRapidRush {
+    margin-top: 85px;
+    margin-left: 20px;
+}
+
+.soustextRapidRush {
+    margin-top: 105px;
+    margin-left: 50px;
+    font-size: 28px;
+    color: #B3C2F2;
+    font-style: italic;
 }
