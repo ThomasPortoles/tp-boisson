@@ -35,7 +35,7 @@
 
 .info_page{
     margin-top: 70px;
-    margin-bottom: 270px;
+    margin-bottom: 150px;
     margin-left: 150px;
     margin-right: 150px;
     padding: 40px;
@@ -48,8 +48,15 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    font-family: 'poppins';
+}
+h2, h3, p {
+    font-family: 'quicksand';
+}
+
 .map{
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 body{
@@ -101,7 +108,7 @@ body{
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
     padding: 20px 30px;
     margin-top: 70px;
-    margin-bottom: 270px;
+    margin-bottom: 150px;
     border: 2px solid rgba(91,222,246,1);
 }
 
