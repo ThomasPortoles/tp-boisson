@@ -1,5 +1,5 @@
 .box {
-    height: 240px;
+    height: 260px;
     width: 220px;
     border-style: solid;
     padding-left: 80px;
@@ -12,7 +12,7 @@
 
 .box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
 }
 
 .conteneur {
@@ -78,7 +78,7 @@ h1 {
     padding-top: 100px;
     text-align: center;
     color: white;
-    font-family: sans-serif;
+    
 }
 
 #principaldiv {
@@ -146,4 +146,10 @@ a {
     font-size: 28px;
     color: #B3C2F2;
     font-style: italic;
+}
+h2{
+    font-family: 'Poppins';
+}
+p{
+    font-family: 'Quicksand';
 }
