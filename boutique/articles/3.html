@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="article.css" />
+    <title>Page de produit</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./image/logoRapidRush.png" class="logoRapidRush">
+        <h1 class="textRapidRush">RapidRush!</h1>
+        <h2 class="soustextRapidRush">Fournisseur N°1 de boissons énergisantes</h2>
+    </div>
+    <button onclick="history.back();">Retour</button>
+    <div class="container">
+        <div class="product-header">
+            <img id=imgMonsterjuice src="./image/monster-energy-juiced-mango-loco-12-x-500-ml.png">
+            <h1>Monster Energy Juiced (12 x 500 ml)</h1>
+            <span class="product-price">€ 14.99</span>
+        </div>
+        <div class="product-form">
+            <div>
+                <label for="quantity">Quantité :</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                <button type="button">AJOUTER AU PANIER</button>
+            </div>
+        </div>
+        <div class="product-description">
+            <h2>Description de l'article</h2>
+            <p>Description de l'article
+                Avis aux adorateurs de Monster Energy : Monster Energy Nitro vous étonnera. L’ajout d'oxyde nitreux à la
+                recette originale lui procure une texture légère, provenant de bulles plus fines. Sa composition
+                nutritionnelle reste similaire à la version originale, incluant 160 mg de caféine et combinant taurine,
+                ginseng, carnitine, guarana ainsi que plusieurs vitamines du groupe B. Côté saveur, Monster Energy Nitro
+                possède des notes d’agrumes.
+            </p>
+            <p> Idéal avant l’entraînement, ou au cours d’une journée chargée.</p>
+        </div>
+    </div>
+</body>
+
+</html>
